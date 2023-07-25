@@ -1,0 +1,68 @@
+/* --------VOYAGER FONT WEIGHTS-------- */
+
+/* LIGHTER(THIN) */
+@font-face{
+    font-family: "Voyager";
+    font-weight: lighter;
+    font-style: normal;
+    src: url(../fonts/madevoyagerpersonaluse-thin.otf);
+}
+
+/* LIGHT (LIGHT) */
+@font-face{
+    font-family: "Voyager";
+    font-weight:lighter;
+    font-style: normal;
+    src: url(../fonts/madevoyagerpersonaluse-light.otf);
+}
+
+/* NORMAL (REGULAR) */
+@font-face{
+    font-family: "Voyager";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/madevoyagerpersonaluse-regular.otf);
+}
+
+/* BOLD (MEDIUM) */
+@font-face{
+    font-family: "Voyager";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/madevoyagerpersonaluse-medium.otf);
+}
+
+/* BOLDER (BOLD) */
+@font-face{
+    font-family: "Voyager";
+    font-weight: bolder;
+    font-style: normal;
+    src: url(../fonts/madevoyagerpersonaluse-bold.otf);
+}
+
+
+
+/* --------NEUE MACHINA FONT WEIGHTS-------- */
+/* LIGHT */
+@font-face{
+    font-family: "Neue Machina";
+    font-weight: lighter;
+    font-style: normal;
+    src: url(../fonts/NeueMachina-Light.otf);
+}
+
+/* NORMAL (REGULAR) */
+@font-face{
+    font-family: "Neue Machina";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/NeueMachina-Regular.otf);
+}
+
+/* BOLD (BOLD) */
+@font-face{
+    font-family: "Neue Machina";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/NeueMachina-Ultrabold.otf);
+}

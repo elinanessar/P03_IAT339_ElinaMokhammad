@@ -6,390 +6,395 @@
     <meta name="viewport" content="width=-device-width, initial-scale=1.0">
     <title>Portfolio Style Guide</title>
     <!-- <600px, 601px, 768px, 992px, 1200px  -->
-    <link href="css/normalize.css" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
+    <link href="/css/normalize.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/flexbox.css" rel="stylesheet" />
+    <link href="/css/fonts.css" rel="stylesheet" />
 </head>
 
 
 <body>
     <header>
-        <nav class="">
+        <nav class=" navbar">
             <!-- menu : home, projects, about me, style guide-->
-            <a href="html/index.html" class=" block-one">home</a>
-            <!-- <a href="html/aboutme.html" class=" block-two">me</a> -->
+            <a href="/html/index.html" class=" nav-item block-one">home</a>
+            <!-- <a href="/html/aboutme.html" class=" nav-item block-two">me</a> -->
             <!-- maybe change the placement of me and projects to center "ME" in the nav bar -->
 
             <!-- -----------------------------WHAT SHOULD I PUT IN THE ME SECTION!?----------------------------- -->
 
-            <a href="html/projects.html" class=" block-three">projects</a>
+            <a href="/html/project.html" class=" nav-item block-three">projects</a>
             <!-- add a drop down menu for projects and list two projects -->
-            <a href="html/styleguide.html" class=" block-four">style guide</a>
+            <a href="/html/styleguide.html" class="nav-item block-four">style guide</a>
         </nav>
     </header>
-    <div class="">
-        <h2>NAVIGATION</h2>
-        <!-- placed on the left side^ -->
+    <div class="body-placement">
+        <div class="">
+            <h2>NAVIGATION</h2>
+            <!-- placed on the left side^ -->
 
-        <nav class="">
-
-
-            <!-- menu : interactive elements, text elements, combined elements, branding components, citations-->
-            <div class="">
-                <!-- the two divs will be justified by baseline to be on the same level-->
-                <div class="">
-                    <p>01</p>
-                    <!-- on the left side of flexbox-->
-                </div>
-
-                <div class="">
-
-
-                    <div class="">
-                        <a href="#interactive_elements" class=" block-one">INTERACTIVE ELEMENTS</a>
-                        <!-- on the right side of flexbox +horizontal line underneath-->
-                    </div>
-
-                    <div class="">
-                        <p>in-text link, navigation link button, submit/reset buttons, text input field, radio button,
-                            image as link</p>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-
-
-            <div class="">
-
-                <!-- the two divs will be justified by baseline to be on the same level-->
-                <div class="">
-                    <p>02</p>
-                    <!-- on the left side of flexbox-->
-                </div>
-
-
-                <div class="">
-
-
-                    <div class="">
-                        <a href="#text_elements" class=" block-two">TEXT ELEMENTS</a>
-                        <!-- on the right side of flexbox +horizontal line underneath-->
-                    </div>
-
-                    <div class="">
-                        <p>headings font size, hierarchy, paragraphs, numbered lists</p>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-
-
-            <div class="">
-
-                <!-- the two divs will be justified by baseline to be on the same level-->
-                <div class="">
-                    <p>03</p>
-                    <!-- on the left side of flexbox-->
-                </div>
-
-
-                <div class="">
-
-
-                    <div class="">
-                        <a href="#combined_elements" class=" block-three">COMBINED ELEMENTS</a>
-                    </div>
-
-                    <div class="">
-                        <p>main navigation bar, project presentation, contact form</p>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-            <div class="">
-
-                <!-- the two divs will be justified by baseline to be on the same level-->
-                <div class="">
-                    <p>04</p>
-                    <!-- on the left side of flexbox-->
-                </div>
-
-                <div class="">
-
-                    <div class="">
-                        <a href="#branding_components" class=" block-four">BRANDING COMPONENTS</a>
-                        <!-- on the right side of flexbox +horizontal line underneath-->
-                    </div>
-
-
-                    <div class="">
-                        <p>fonts, colour palette, art direction</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="">
-
-                <!-- the two divs will be justified by baseline to be on the same level-->
-                <div class="">
-                    <p>05</p>
-                    <!-- on the left side of flexbox-->
-                </div>
-
-
-                <div class="">
-
-                    <div class="">
-                        <a href="#citations" class=" block-five">CITATIONS</a>
-                        <!-- on the right side of flexbox +horizontal line underneath-->
-                    </div>
-
-
-                    <div class="">
-                        <p>fonts, borrowed images, borrowed templates</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </nav>
-        <!-- placed ont the right side of the viewport^ -->
-
-    </div>
-
-
-
-
-    <!-- INTERACTIVE ELEMENTS SECTION -->
-    <section id="interactive_elements">
-        <h2>Interactive Elements</h2>
-
-        <!-- IN-TEXT LINK -->
-        <section class="element">
-
-            <h3>In-text Link Design:</h3>
-            <p>
-                Here is a text. And here is an <a href="html/index.html">in-text link </a>.
-            </p>
-        </section>
-
-        <!-- NAV LINK BUTTON -->
-        <section class="element">
-
-            <h3>Navigation Link Design:</h3>
-
-            <a class="button-nav" href="#">Default Button</a>
-
-        </section>
-
-        <!-- SUBMIT AND RESET BUTTONS -->
-        <section class="element">
-
-            <h3>Submit/Reset Buttons Design:</h3>
-            <input type="submit" value="submit button" />
-            <input type="reset" value="reset button" />
-
-        </section>
-
-        <!-- TEXT INPUT FIELD AND LABELS -->
-        <section class="element">
-            <h3>Text Input Field with Label</h3>
-            <label for="input">Label:</label>
-            <input type="text" id="input" name="input" placeholder="Input something" />
-        </section>
-
-        <!-- RADIO BUTTON WITH LABELS -->
-        <section class="element">
-            <h3>Radio Button with Label</h3>
-
-            <input type="radio" id="radio-button" name="radio-button" value="radio-button" />
-            <label for="radio-button">Radio Button</label>
-
-        </section>
-
-        <!-- IMAGE AS LINK WITH CAPTION -->
-        <section class="element">
-            <h3>Image as a Link</h3>
-            <figure>
-                <a href="html/styleguide.html"><img src="img/339_website_portrait.png" alt="" class="" /></a>
-                <figcaption>
-                    <a href="">See more</a>
-                </figcaption>
-            </figure>
-        </section>
-    </section>
-
-    <!-- TEXT ELEMENTS SECTION -->
-    <section id="text_elements">
-        <h2>Text Elements</h2>
-
-        <!-- HEADINGS FONT SIZE + HIERARCHY -->
-        <section class="element">
-            <h3>Headings Design:</h3>
-            <h1>Heading 1 (Page title) </h1>
-            <h2>Heading 2 (Section heading)</h2>
-            <h3>Heading 3 (Subsection heading)</h3>
-            <h4>Heading 4 (Secondary subsection heading)</h4>
-
-
-        </section>
-
-        <!-- PARGRAPHS APPEARANCE -->
-        <section class="element">
-            <h3>Paragraphs</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </section>
-
-        <!-- NUMBERED LISTS -->
-        <section class="element">
-            <h3>Numbered Lists</h3>
-            <ol>
-                <li>First item</li>
-                <li>Second item</li>
-                <li>Third item</li>
-            </ol>
-
-        </section>
-
-    </section>
-
-    <!-- COMBINED ELEMENTS SECTION -->
-    <section id="combined_elements">
-        <h2>Combined Elements</h2>
-
-        <!-- MAIN NAVIGATION BAR -->
-        <section class="element">
-            <h3>Main Navigation</h3>
-
-            <!-- PUT MENU NAV BAR HERE -->
             <nav class="">
-                <a href="" class=" block-one">home</a>
-                <a href="" class=" block-two"> projects</a>
-                <a href="" class=" block-three">about me</a>
-                <a href="" class=" block-four">style guide</a>
+
+
+                <!-- menu : interactive elements, text elements, combined elements, branding components, citations-->
+                <div class="">
+                    <!-- the two divs will be justified by baseline to be on the same level-->
+                    <div class="">
+                        <p>01</p>
+                        <!-- on the left side of flexbox-->
+                    </div>
+
+                    <div class="">
+
+
+                        <div class="">
+                            <a href="#interactive_elements" class=" block-one">INTERACTIVE ELEMENTS</a>
+                            <!-- on the right side of flexbox +horizontal line underneath-->
+                        </div>
+
+                        <div class="">
+                            <p>in-text link, navigation link button, submit/reset buttons, text input field, radio
+                                button,
+                                image as link</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="">
+
+                    <!-- the two divs will be justified by baseline to be on the same level-->
+                    <div class="">
+                        <p>02</p>
+                        <!-- on the left side of flexbox-->
+                    </div>
+
+
+                    <div class="">
+
+
+                        <div class="">
+                            <a href="#text_elements" class=" block-two">TEXT ELEMENTS</a>
+                            <!-- on the right side of flexbox +horizontal line underneath-->
+                        </div>
+
+                        <div class="">
+                            <p>headings font size, hierarchy, paragraphs, numbered lists</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="">
+
+                    <!-- the two divs will be justified by baseline to be on the same level-->
+                    <div class="">
+                        <p>03</p>
+                        <!-- on the left side of flexbox-->
+                    </div>
+
+
+                    <div class="">
+
+
+                        <div class="">
+                            <a href="#combined_elements" class=" block-three">COMBINED ELEMENTS</a>
+                        </div>
+
+                        <div class="">
+                            <p>main navigation bar, project presentation, contact form</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="">
+
+                    <!-- the two divs will be justified by baseline to be on the same level-->
+                    <div class="">
+                        <p>04</p>
+                        <!-- on the left side of flexbox-->
+                    </div>
+
+                    <div class="">
+
+                        <div class="">
+                            <a href="#branding_components" class=" block-four">BRANDING COMPONENTS</a>
+                            <!-- on the right side of flexbox +horizontal line underneath-->
+                        </div>
+
+
+                        <div class="">
+                            <p>fonts, colour palette, art direction</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="">
+
+                    <!-- the two divs will be justified by baseline to be on the same level-->
+                    <div class="">
+                        <p>05</p>
+                        <!-- on the left side of flexbox-->
+                    </div>
+
+
+                    <div class="">
+
+                        <div class="">
+                            <a href="#citations" class=" block-five">CITATIONS</a>
+                            <!-- on the right side of flexbox +horizontal line underneath-->
+                        </div>
+
+
+                        <div class="">
+                            <p>fonts, borrowed images, borrowed templates</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </nav>
+            <!-- placed ont the right side of the viewport^ -->
+
+        </div>
+
+
+
+
+        <!-- INTERACTIVE ELEMENTS SECTION -->
+        <section id="interactive_elements">
+            <h2>Interactive Elements</h2>
+
+            <!-- IN-TEXT LINK -->
+            <section class="element">
+
+                <h3>In-text Link Design:</h3>
+                <p>
+                    Here is a text. And here is an <a href="/html/index.html">in-text link </a>.
+                </p>
+            </section>
+
+            <!-- NAV LINK BUTTON -->
+            <section class="element">
+
+                <h3>Navigation Link Design:</h3>
+
+                <a class="button-nav" href="#">Default Button</a>
+
+            </section>
+
+            <!-- SUBMIT AND RESET BUTTONS -->
+            <section class="element">
+
+                <h3>Submit/Reset Buttons Design:</h3>
+                <input type="submit" value="submit button" />
+                <input type="reset" value="reset button" />
+
+            </section>
+
+            <!-- TEXT INPUT FIELD AND LABELS -->
+            <section class="element">
+                <h3>Text Input Field with Label</h3>
+                <label for="input">Label:</label>
+                <input type="text" id="input" name="input" placeholder="Input something" />
+            </section>
+
+            <!-- RADIO BUTTON WITH LABELS -->
+            <section class="element">
+                <h3>Radio Button with Label</h3>
+
+                <input type="radio" id="radio-button" name="radio-button" value="radio-button" />
+                <label for="radio-button">Radio Button</label>
+
+            </section>
+
+            <!-- IMAGE AS LINK WITH CAPTION -->
+            <section class="element">
+                <h3>Image as a Link</h3>
+                <figure>
+                    <a href="/html/styleguide.html"><img src="/img/339_website_portrait.png" alt="" class="" /></a>
+                    <figcaption>
+                        <a href="">See more</a>
+                    </figcaption>
+                </figure>
+            </section>
         </section>
 
-        <!-- PROJECT PRESENTATION -->
-        <section class="element">
-            <h2>Project Presentation</h2>
+        <!-- TEXT ELEMENTS SECTION -->
+        <section id="text_elements">
+            <h2>Text Elements</h2>
+
+            <!-- HEADINGS FONT SIZE + HIERARCHY -->
+            <section class="element">
+                <h3>Headings Design:</h3>
+                <h1>Heading 1 (Page title) </h1>
+                <h2>Heading 2 (Section heading)</h2>
+                <h3>Heading 3 (Subsection heading)</h3>
+                <h4>Heading 4 (Secondary subsection heading)</h4>
+
+
+            </section>
+
+            <!-- PARGRAPHS APPEARANCE -->
+            <section class="element">
+                <h3>Paragraphs</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </section>
+
+            <!-- NUMBERED LISTS -->
+            <section class="element">
+                <h3>Numbered Lists</h3>
+                <ol>
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+
+            </section>
 
         </section>
 
-        <!-- CONTACT FORM -->
-        <section class="element">
-            <h2>Contact Form</h2>
+        <!-- COMBINED ELEMENTS SECTION -->
+        <section id="combined_elements">
+            <h2>Combined Elements</h2>
+
+            <!-- MAIN NAVIGATION BAR -->
+            <section class="element">
+                <h3>Main Navigation</h3>
+
+                <!-- PUT MENU NAV BAR HERE -->
+                <nav class="">
+                    <a href="" class=" block-one">home</a>
+                    <a href="" class=" block-two"> projects</a>
+                    <a href="" class=" block-three">about me</a>
+                    <a href="" class=" block-four">style guide</a>
+                </nav>
+            </section>
+
+            <!-- PROJECT PRESENTATION -->
+            <section class="element">
+                <h2>Project Presentation</h2>
+
+            </section>
+
+            <!-- CONTACT FORM -->
+            <section class="element">
+                <h2>Contact Form</h2>
+
+            </section>
+
 
         </section>
 
+        <!--BRANDING COMPONENTS SECTION -->
+        <section id="branding_components">
 
-    </section>
-
-    <!--BRANDING COMPONENTS SECTION -->
-    <section id="branding_components">
-
-        <h2>Design Elements</h2>
-        <section class="element">
-            <h3 class="">Fonts:</h3>
-            <h1 class=""> Voyager (Page title)</h1>
-            <p class="">
-                regular and <b>bold </b>for headings.
-                <!-- Link to -->
-                <!-- <a href="https://befonts.com/voyager-font.html">befonts.com</a> -->
-            </p>
-            <h1>Neue Machina (Text)</h1>
-            <p>
-                regular, <i>italized</i>, <b>bold</b> for text.
-                <!-- Link to
+            <h2>Design Elements</h2>
+            <section class="element">
+                <h3 class="">Fonts:</h3>
+                <h1 class=""> Voyager (Page title)</h1>
+                <p class="">
+                    regular and <b>bold </b>for headings.
+                    <!-- Link to -->
+                    <!-- <a href="https://befonts.com/voyager-font.html">befonts.com</a> -->
+                </p>
+                <h1>Neue Machina (Text)</h1>
+                <p>
+                    regular, <i>italized</i>, <b>bold</b> for text.
+                    <!-- Link to
                  <a href="https://befonts.com/neue-machina-font-family.html">befonts.com</a> -->
-            </p>
-            <h3 class="product">Colour Palettes:</h3>
-            <div class="color-rectangles color-box">
-                <div class="color-rectangle color-block1" style="background-color: #b9d5bc">
-                    <p class="" style="color: darkgreen">#b9d5bc</p>
-                    <p class="" style="color: darkgreen">Input box and label</p>
+                </p>
+                <h3 class="product">Colour Palettes:</h3>
+                <div class="color-rectangles color-box">
+                    <div class="color-rectangle color-block1" style="background-color: #b9d5bc">
+                        <p class="" style="color: darkgreen">#b9d5bc</p>
+                        <p class="" style="color: darkgreen">Input box and label</p>
+                    </div>
+                    <div class="color-rectangle color-block2" style="background-color: #c5dcc2">
+                        <p class="" style="color: darkgreen">#c5dcc2</p>
+                        <p class="" style="color: darkgreen">Background and hover button color</p>
+                    </div>
+                    <div class="color-rectangle color-block3" style="background-color: #91b38e">
+                        <p class="" style="color: darkgreen">#91b38e</p>
+                        <p class=" " style="color: darkgreen">Button color and navbar element</p>
+                    </div>
+                    <div class="color-rectangle color-block4" style="background-color: #175700">
+                        <p class="" style="color: white">#175700</p>
+                        <p class="" style="color: white">Navbar and text color</p>
+                    </div>
+                    <div class="color-rectangle color-block5" style="background-color: #d3ecdc">
+                        <p class="" style="color: darkgreen">#d3ecdc</p>
+                        <p class="" style="color: darkgreen">Link text and input hover color</p>
+                    </div>
+                    <div class="color-rectangle color-block6" style="background-color: black">
+                        <p class="" style="color: darkgreen">#000000</p>
+                        <p class="" style="color: darkgreen">User input text color</p>
+                    </div>
+                    <div class="color-rectangle color-block7" style="background-color: white">
+                        <p class="" style="color: darkgreen">#ffffff</p>
+                        <p class="" style="color: darkgreen">Link text original color</p>
+                    </div>
+                    <div class="color-rectangle color-block8" style="background-color: turquoise">
+                        <p class="" style="color: darkgreen">#40e0d0</p>
+                        <p class="" style="color: darkgreen">Image border for jpeg</p>
+                    </div>
                 </div>
-                <div class="color-rectangle color-block2" style="background-color: #c5dcc2">
-                    <p class="" style="color: darkgreen">#c5dcc2</p>
-                    <p class="" style="color: darkgreen">Background and hover button color</p>
-                </div>
-                <div class="color-rectangle color-block3" style="background-color: #91b38e">
-                    <p class="" style="color: darkgreen">#91b38e</p>
-                    <p class=" " style="color: darkgreen">Button color and navbar element</p>
-                </div>
-                <div class="color-rectangle color-block4" style="background-color: #175700">
-                    <p class="" style="color: white">#175700</p>
-                    <p class="" style="color: white">Navbar and text color</p>
-                </div>
-                <div class="color-rectangle color-block5" style="background-color: #d3ecdc">
-                    <p class="" style="color: darkgreen">#d3ecdc</p>
-                    <p class="" style="color: darkgreen">Link text and input hover color</p>
-                </div>
-                <div class="color-rectangle color-block6" style="background-color: black">
-                    <p class="" style="color: darkgreen">#000000</p>
-                    <p class="" style="color: darkgreen">User input text color</p>
-                </div>
-                <div class="color-rectangle color-block7" style="background-color: white">
-                    <p class="" style="color: darkgreen">#ffffff</p>
-                    <p class="" style="color: darkgreen">Link text original color</p>
-                </div>
-                <div class="color-rectangle color-block8" style="background-color: turquoise">
-                    <p class="" style="color: darkgreen">#40e0d0</p>
-                    <p class="" style="color: darkgreen">Image border for jpeg</p>
-                </div>
-            </div>
-            <!-- a grid made for class="art-direction-img" in order to add more hierarchy to the website -->
-            <h3>Art Direction:</h3>
-            <figure>
-                <img src="img/" alt="" class="" />
-                <img src="img/" alt="" class="" />
-                <img src="img/" alt="" class="" />
-                <img src="img/" alt="" class="" />
-                <img src="img/" alt="" class="" />
-                <img src="img/" alt="" class="" />
+                <!-- a grid made for class="art-direction-img" in order to add more hierarchy to the website -->
+                <h3>Art Direction:</h3>
+                <figure>
+                    <img src="/img/" alt="" class="" />
+                    <img src="/img/" alt="" class="" />
+                    <img src="/img/" alt="" class="" />
+                    <img src="/img/" alt="" class="" />
+                    <img src="/img/" alt="" class="" />
+                    <img src="/img/" alt="" class="" />
 
-            </figure>
+                </figure>
+            </section>
+
+
         </section>
 
+        </section>
 
-    </section>
-
-    </section>
-
-    <!-- CITATIONS SECTION -->
-    <section id="citations">
-        <h2>Citations</h2>
-        <div class="citations-box">
-            <ul>
+        <!-- CITATIONS SECTION -->
+        <section id="citations">
+            <h2>Citations</h2>
+            <div class="citations-box">
+                <ul>
 
 
-                <li class="citations-list">
+                    <!-- <li class="citations-list">
                     Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>.
                     Retrieved from
                     <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans
-                    </a>
-                </li>
-            </ul>
-    </section>
+                    </a> -->
+                    </li>
+                </ul>
+        </section>
+    </div>
 
 </body>
 
