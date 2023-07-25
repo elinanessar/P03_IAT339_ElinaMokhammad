@@ -1,19 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=-device-width, initial-scale=1.0">
-        <title>Portfolio Style Guide</title>
-        <!-- <600px, 601px, 768px, 992px, 1200px  -->
-        <link href="css/main.css" rel="stylesheet" />
-        <link href="css/normalize.css" rel="stylesheet" />
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=-device-width, initial-scale=1.0">
+    <title>Portfolio Style Guide</title>
+    <!-- <600px, 601px, 768px, 992px, 1200px  -->
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
 
-    
-    <body>
+</head>
 
-    </body>
+
+<body>
+    <header>
+        <div class="">
+            <h1 class="website-header block-zero">Style Guide</h1>
+        </div>
+
+        <nav class="">
+            <!-- menu : home, projects, about me, style guide-->
+        </nav>
+
+        <nav class="">
+            <!-- menu : interactive elements, text elements, combined elements, branding components, citations-->
+            <a href="#interactive_elements" class=" block-one">interactive elements</a>
+            <a href="#text_elements" class=" block-two">text elements</a>
+            <a href="#combined_elements" class=" block-three">combined elements</a>
+            <a href="#branding_components" class=" block-four">branding components</a>
+            <a href="#citations" class=" block-five">citations</a>
+        </nav>
+    </header>
+
+    <!-- INTERACTIVE ELEMENTS SECTION -->
+    <section id="#interactive_elements">
+        <h2>Interactive Elements</h2>
+
+        <!-- IN-TEXT LINK -->
+        <section class="element">
+
+            <h3>In-text Link Design:</h3>
+            <p>
+                Here is a text. And here is an <a href="https://www.google.com">in-text link </a>.
+            </p>
+        </section>
+
+        <!-- NAV LINK BUTTON -->
+        <section class="element">
+
+            <h3>Navigation Link Design:</h3>
+            <a href="#image-element"></a>
+
+            <a class="button-nav" href="#">Default Button</a>
+
+        </section>
+
+        <!-- SUBMIT AND RESET BUTTONS -->
+        <section class="element">
+
+            <h3>Submit/Reset Buttons Design:</h3>
+            <input type="submit" value="submit button" />
+            <input type="reset" value="reset button" />
+
+        </section>
+
+        <!-- TEXT INPUT FIELD AND LABELS -->
+        <section class="element">
+            <h3>Text Input Field with Label</h3>
+            <label for="input">Label:</label>
+            <input type="text" id="input" name="input" placeholder="Input something" />
+        </section>
+
+        <!-- RADIO BUTTON WITH LABELS -->
+        <section class="element">
+            <h3>Radio Button with Label</h3>
+
+            <input type="radio" id="radio-button" name="radio-button" value="radio-button" />
+            <label for="radio-button">Radio Button</label>
+
+        </section>
+
+        <!-- IMAGE AS LINK WITH CAPTION -->
+        <section class="element">
+            <h3>Image as a Link</h3>
+            <figure>
+                <a href=""><img src="img/" alt="" class="" /></a>
+                <figcaption>
+                    <a href="">See more</a>
+                </figcaption>
+            </figure>
+        </section>
+    </section>
+
+    <!-- TEXT ELEMENTS SECTION -->
+    <section id="#text_elements">
+        <h2>Text Elements</h2>
+
+        <!-- HEADINGS FONT SIZE + HIERARCHY -->
+        <section class="element">
+            <h3>Headings Design:</h3>
+            <h1>Heading 1 (Page title) </h1>
+            <h2>Heading 2 (Section heading)</h2>
+            <h3>Heading 3 (Subsection heading)</h3>
+            <h4>Heading 4 (Secondary subsection heading)</h4>
+
+
+        </section>
+
+        <!-- PARGRAPHS APPEARANCE -->
+        <section class="element">
+            <h3>Paragraphs</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </section>
+
+        <!-- NUMBERED LISTS -->
+        <section class="element">
+            h3>Numbered Lists</h3>
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
+
+        </section>
+
+    </section>
+
+    <!-- COMBINED ELEMENTS SECTION -->
+    <section id="#combined_elements">
+        <h2>Combined Elements</h2>
+
+        <!-- MAIN NAVIGATION BAR -->
+        <section class="element">
+            <h3>Main Navigation</h3>
+            <!-- header for the website with the navigation links to most important parts of the website -->
+
+            <!-- PUT MENU NAV BAR HERE -->
+            <nav class="">
+                <a href="" class=" block-one">home</a>
+                <a href="" class=" block-two"> projects</a>
+                <a href="" class=" block-three">about me</a>
+                <a href="" class=" block-four">style guide</a>
+            </nav>
+        </section>
+
+        <!-- PROJECT LISTING -->
+        <section class="element">
+
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section class="element">
+
+        </section>
+
+
+    </section>
+
+    <!--BRANDING COMPONENTS SECTION -->
+    <section id="#branding_components">
+
+        <h2>Design Elements</h2>
+        <section class="element">
+            <h3 class="product">Fonts:</h3>
+            <h1 class="newfont">Neue Haas Grotesk(Page title)</h1>
+            <p class="newfont">
+                regular and <b>bold </b>for headings.
+                <!-- Link to -->
+                <!-- <a href="https://fonts.google.com/specimen/Montserrat">Google Fonts</a> -->
+            </p>
+            <h1>Neue Haas Grotesk (Text)</h1>
+            <p>
+                regular, <i>italized</i>, <b>bold</b> for text.
+                <!-- Link to
+        <a href="https://fonts.google.com/specimen/Prompt">Google Fonts</a> -->
+            </p>
+            <h3 class="product">Colour Palettes:</h3>
+            <div class="color-rectangles color-box">
+                <div class="color-rectangle color-block1" style="background-color: #b9d5bc">
+                    <p class="textfont" style="color: darkgreen">#b9d5bc</p>
+                    <p class="textfont" style="color: darkgreen">Input box and label</p>
+                </div>
+                <div class="color-rectangle color-block2" style="background-color: #c5dcc2">
+                    <p class="textfont" style="color: darkgreen">#c5dcc2</p>
+                    <p class="textfont" style="color: darkgreen">Background and hover button color</p>
+                </div>
+                <div class="color-rectangle color-block3" style="background-color: #91b38e">
+                    <p class="textfont" style="color: darkgreen">#91b38e</p>
+                    <p class="textfont" style="color: darkgreen">Button color and navbar element</p>
+                </div>
+                <div class="color-rectangle color-block4" style="background-color: #175700">
+                    <p class="textfont" style="color: white">#175700</p>
+                    <p class="textfont" style="color: white">Navbar and text color</p>
+                </div>
+                <div class="color-rectangle color-block5" style="background-color: #d3ecdc">
+                    <p class="textfont" style="color: darkgreen">#d3ecdc</p>
+                    <p class="textfont" style="color: darkgreen">Link text and input hover color</p>
+                </div>
+                <div class="color-rectangle color-block6" style="background-color: black">
+                    <p class="textfont" style="color: darkgreen">#000000</p>
+                    <p class="textfont" style="color: darkgreen">User input text color</p>
+                </div>
+                <div class="color-rectangle color-block7" style="background-color: white">
+                    <p class="textfont" style="color: darkgreen">#ffffff</p>
+                    <p class="textfont" style="color: darkgreen">Link text original color</p>
+                </div>
+                <div class="color-rectangle color-block8" style="background-color: turquoise">
+                    <p class="textfont" style="color: darkgreen">#40e0d0</p>
+                    <p class="textfont" style="color: darkgreen">Image border for jpeg</p>
+                </div>
+            </div>
+            <!-- a grid made for class="art-direction-img" in order to add more hierarchy to the website -->
+            <h3>Art Direction:</h3>
+            <figure>
+                <img src="img/" alt="" class="" />
+                <!-- my own image I created in figma -->
+                <img src="img/" alt="" class="" />
+                <img src="img/" alt="" class="" />
+                <!-- my own image I created in figma -->
+                <img src="img/" alt="" class="" />
+                <img src="img/" alt="" class="" />
+                <img src="img/" alt="" class="" />
+
+            </figure>
+        </section>
+
+
+    </section>
+
+    </section>
+
+    <!-- CITATIONS SECTION -->
+    <section id="#citations">
+        <h2>Citations</h2>
+        <div class="citations-box">
+            <ul>
+
+
+                <li class="citations-list">
+                    Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>.
+                    Retrieved from
+                    <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans
+                    </a>
+                </li>
+            </ul>
+    </section>
+
+</body>
 
 </html>
