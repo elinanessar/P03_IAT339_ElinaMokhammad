@@ -115,7 +115,9 @@
 
 
                         <div class="sg-nav-item-2-fb">
-                            <a href="#combined_elements" class=" block-three"><h3>COMBINED ELEMENTS</h3></a>
+                            <a href="#combined_elements" class=" block-three">
+                                <h3>COMBINED ELEMENTS</h3>
+                            </a>
                         </div>
 
                         <div class="sg-nav-item-2-fb-2">
@@ -141,7 +143,9 @@
                     <div class="sg-nav-item-2">
 
                         <div class="sg-nav-item-2-fb">
-                            <a href="#branding_components" class=" block-four"><h3>BRANDING COMPONENTS</h3></a>
+                            <a href="#branding_components" class=" block-four">
+                                <h3>BRANDING COMPONENTS</h3>
+                            </a>
                             <!-- on the right side of flexbox +horizontal line underneath-->
                         </div>
 
@@ -169,7 +173,9 @@
                     <div class="sg-nav-item-2">
 
                         <div class="sg-nav-item-2-fb">
-                            <a href="#citations" class=" block-five"><h3>CITATIONS</h3></a>
+                            <a href="#citations" class=" block-five">
+                                <h3>CITATIONS</h3>
+                            </a>
                             <!-- on the right side of flexbox +horizontal line underneath-->
                         </div>
 
@@ -244,9 +250,11 @@
             <section class="element">
                 <h3>Image as a Link</h3>
                 <figure>
-                    <a href="/html/styleguide.html"><img class="img-link" src="/img/339_website_portrait.png" alt="" class="" /></a>
+                    <!-- image taken and edited by me -->
+                    <a href="/html/styleguide.html"><img class="img-link" src="/img/339_website_portrait.png" alt=""
+                            class="" /></a>
                     <figcaption>
-                        <a href="">See more</a>
+                        <a href="" class="in-text-a">See more</a>
                     </figcaption>
                 </figure>
             </section>
@@ -303,23 +311,51 @@
                 <h3>Main Navigation</h3>
 
                 <!-- PUT MENU NAV BAR HERE -->
-                <nav class="">
-                    <a href="" class=" block-one">home</a>
-                    <a href="" class=" block-two"> projects</a>
-                    <a href="" class=" block-three">about me</a>
-                    <a href="" class=" block-four">style guide</a>
+                <nav class=" navbar">
+                    <!-- menu : home, projects, about me, style guide-->
+                    <a href="/html/index.html" class=" nav-item block-one">home</a>
+                    <!-- <a href="/html/aboutme.html" class=" nav-item block-two">me</a> -->
+                    <!-- maybe change the placement of me and projects to center "ME" in the nav bar -->
+
+                    <!-- -----------------------------WHAT SHOULD I PUT IN THE ME SECTION!?----------------------------- -->
+
+                    <a href="/html/project.html" class=" nav-item block-three">projects</a>
+                    <!-- add a drop down menu for projects and list two projects -->
+                    <a href="/html/styleguide.html" class="nav-item block-four">style guide</a>
                 </nav>
             </section>
 
             <!-- PROJECT PRESENTATION -->
             <section class="element">
                 <h3>Project Presentation</h3>
+                <div class="">
 
+                </div>
             </section>
 
             <!-- CONTACT FORM -->
             <section class="element">
-                <h3>Contact Form</h3>
+                <div class="contact-container">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Type your name here" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Type your email here" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Comments:</label>
+                            <textarea id="comments" name="comments" placeholder="Your comment goes here..."
+                                required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="submit button" />
+                        </div>
+                    </form>
+                </div>
 
             </section>
 
@@ -333,53 +369,45 @@
             <section class="element">
                 <h3 class="">Fonts:</h3>
                 <h1 class=""> Voyager (Page title)</h1>
-                <p class="">
-                    regular and <b>bold </b>for headings.
+                <p class="text-example-voyager">
+                    regular for headings (h1, h2).
                     <!-- Link to -->
                     <!-- <a href="https://befonts.com/voyager-font.html">befonts.com</a> -->
                 </p>
-                <h1>Neue Machina (Text)</h1>
+                <h1 class="text-example-neue">Neue Machina (Text)</h1>
                 <p>
                     regular, <i>italized</i>, <b>bold</b> for text.
                     <!-- Link to
                  <a href="https://befonts.com/neue-machina-font-family.html">befonts.com</a> -->
                 </p>
-            
+
             </section>
             <section class="element">
-                <h3 class="product">Colour Palettes:</h3>
-                <div class="color-rectangles color-box">
-                    <div class="color-rectangle color-block1" style="background-color: #b9d5bc">
-                        <p class="" style="color: darkgreen">#b9d5bc</p>
-                        <p class="" style="color: darkgreen">Input box and label</p>
+                <h3>Colour Palettes:</h3>
+                <div class="color-box-fb">
+                    <div class="color-box cb-fb-item block-one" style="background-color: #2b2622">
+                        <p class="" style="color: white">#2b2622</p>
+                        <p class="" style="color: white">Input box and button colour</p>
                     </div>
-                    <div class="color-rectangle color-block2" style="background-color: #c5dcc2">
-                        <p class="" style="color: darkgreen">#c5dcc2</p>
-                        <p class="" style="color: darkgreen">Background and hover button color</p>
+                    <div class="color-box cb-fb-item block-two" style="background-color: #312A26">
+                        <p class="" style="color: white">#312A26</p>
+                        <p class="" style="color: white">Background and hover button color</p>
                     </div>
-                    <div class="color-rectangle color-block3" style="background-color: #91b38e">
-                        <p class="" style="color: darkgreen">#91b38e</p>
-                        <p class=" " style="color: darkgreen">Button color and navbar element</p>
+                    <div class="color-box cb-fb-item block-three" style="background-color: #deb887">
+                        <p class="" style="color: white">#deb887</p>
+                        <p class="" style="color: white">Link text and input label color</p>
                     </div>
-                    <div class="color-rectangle color-block4" style="background-color: #175700">
-                        <p class="" style="color: white">#175700</p>
-                        <p class="" style="color: white">Navbar and text color</p>
+                    <div class="color-box cb-fb-item block-four" style="background-color: black">
+                        <p class="" style="color: white">#000000</p>
+                        <p class="" style="color: white">Comments text</p>
                     </div>
-                    <div class="color-rectangle color-block5" style="background-color: #d3ecdc">
-                        <p class="" style="color: darkgreen">#d3ecdc</p>
-                        <p class="" style="color: darkgreen">Link text and input hover color</p>
+                    <div class="color-box cb-fb-item block-five" style="background-color: #808080">
+                        <p class="" style="color: white">#808080</p>
+                        <p class="" style="color: white">Subsection text</p>
                     </div>
-                    <div class="color-rectangle color-block6" style="background-color: black">
-                        <p class="" style="color: darkgreen">#000000</p>
-                        <p class="" style="color: darkgreen">User input text color</p>
-                    </div>
-                    <div class="color-rectangle color-block7" style="background-color: white">
-                        <p class="" style="color: darkgreen">#ffffff</p>
-                        <p class="" style="color: darkgreen">Link text original color</p>
-                    </div>
-                    <div class="color-rectangle color-block8" style="background-color: turquoise">
-                        <p class="" style="color: darkgreen">#40e0d0</p>
-                        <p class="" style="color: darkgreen">Image border for jpeg</p>
+                    <div class="color-box cb-fb-item block-six" style="background-color: white">
+                        <p class="" style="color: rgb(43, 38, 34)">#ffffff</p>
+                        <p class="" style="color: rgb(43, 38, 34)">Image borders, text, filter shadow</p>
                     </div>
                 </div>
             </section>
@@ -388,12 +416,12 @@
                 <!-- a grid made for class="art-direction-img" in order to add more hierarchy to the website -->
                 <h3>Art Direction:</h3>
                 <figure>
-                    <img src="/img/" alt="" class="" />
-                    <img src="/img/" alt="" class="" />
-                    <img src="/img/" alt="" class="" />
-                    <img src="/img/" alt="" class="" />
-                    <img src="/img/" alt="" class="" />
-                    <img src="/img/" alt="" class="" />
+                    <img src="/img/portfolio_inspo.png" alt="" class="img-link" />
+                    <img src="/img/portfolio_inspo_2.jpeg" alt="" class="img-link" />
+                    <img src="/img/portfolio_inspo_3.png" alt="" class="img-link" />
+                    <img src="/img/portfolio_inspo_4.jpeg" alt="" class="img-link" />
+                    <img src="/img/portfolio_inspo_5.png" alt="" class="img-link" />
+                    <img src="/img/portfolio_inspo_6.png" alt="" class="img-link" />
 
                 </figure>
             </section>
@@ -409,13 +437,50 @@
             <div class="citations-box">
                 <ul>
 
-
-                    <!-- <li class="citations-list">
-                    Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>.
-                    Retrieved from
-                    <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans
-                    </a> -->
+                    <li class="citations-list">
+                        Bernath, Anna. Designer/Animator. 2020. <strong>[Image]</strong>.
+                        Retrieved from
+                        <a class="in-text-a"
+                            href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:
+                            Open+Sans
+                        </a>
                     </li>
+
+                    <li class="citations-list">
+                        Dubina, Diana. Designer. 2021. <strong>[Image]</strong>.
+                        Retrieved from
+                        <a class="in-text-a"
+                            href="https://www.pinterest.ca/pin/736620082826107799/">https://www.pinterest.ca/pin/736620082826107799/
+                        </a>
+                    </li>
+
+                    <li class="citations-list">
+                        Johnson, Erin. Designer. 2021. <strong>Designer [Image]</strong>.
+                        Retrieved from
+                        <a class="in-text-a" href="https://kindledandkindred.com/">https://kindledandkindred.com/</a>
+                    </li>
+
+                    <li class="citations-list">
+                        Pangram Pangram. Designer. 2018. <strong>Neue Machina [Font]</strong>.
+                        Retrieved from
+                        <a class="in-text-a" href="https://pangrampangram.com">https://pangrampangram.com
+                        </a>
+                    </li>
+
+                    <li class="citations-list">
+                        MadeType. Designer. 2023. <strong>Voyager [Font]</strong>.
+                        Retrieved from
+                        <a class="in-text-a" href="https://fontbundles.net/madetype/2686105-made-voyager">https://fontbundles.net/madetype/2686105-made-voyager
+                        </a>
+                    </li>
+
+                    <li class="citations-list">
+                        Third West Studio. Designer. 2019. <strong>[Image]</strong>.
+                        Retrieved from
+                        <a class="in-text-a" href="https://thirdweststudio.com/">https://thirdweststudio.com/
+                        </a>
+                    </li>
+
                 </ul>
         </section>
     </div>
