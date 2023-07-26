@@ -58,6 +58,18 @@
   align-items: center;
 }
 
+.slide-container-1 {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center content horizontally */
+}
+.photo-row {
+  display: flex; /* Display images side by side */
+  justify-content: center; /* Center images horizontally within the row */
+  margin-bottom: 10px; /* Add some space between each photo-row */
+}
+
+
 @media (max-width: 500px) {
   .sg-nav-item-2 {
     width: 200px;
