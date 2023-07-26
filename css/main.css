@@ -168,11 +168,33 @@ li {
   filter: opacity(60%);
 }
 .hp-img {
-  max-width: 100%; /* Ensure images don't exceed their natural size */
+  max-width: 40%; /* Ensure images don't exceed their natural size */
   height: auto; /* Keep the aspect ratio when scaling down */
 }
+.hp-img:hover{
+  opacity:40%;
+  /* change this to add slides with text, the same background colour, about myself instead of opacity change */
+}
+/* .hp-image:last-child{
+  padding-right: 1rem;
+} */
 .slide-container-1 {
   max-width: 100%;
+}
+
+.my-bio{
+  width:50%;
+}
+.biography{
+  line-height: 2rem;
+  width:80%;
+}
+.prfc-txt{
+  margin-top:3rem;
+  margin-bottom:0;
+  font-size:0.8rem;
+  font-family:Voyager;
+  font-style:italic;
 }
 
 @media (max-width: 500px) {

@@ -60,18 +60,41 @@
 
 .slide-container-1 {
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center content horizontally */
+  flex-direction:row; /* Stack elements vertically */
+  margin-top:1rem;
 }
 .photo-row {
   display: flex; /* Display images side by side */
-  justify-content: center; /* Center images horizontally within the row */
-  margin-bottom: 10px; /* Add some space between each photo-row */
+  justify-content:flex-start; 
+  margin-bottom: 0; /* Add some space between each photo-row */
+  width:80%;
+  height: 50%;
 }
-
+.my-image{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+}
+.my-bio{
+  display:flex;
+  flex-direction:column;
+  flex:wrap;
+}
 
 @media (max-width: 500px) {
   .sg-nav-item-2 {
     width: 200px;
+  }
+}
+@media (max-width: 700px) {
+  .my-image{
+    width:50%;
+  }
+  .photo-row{
+    width: 100%;
+  }
+  .slide-container-1{
+    flex-direction: column;
+    align-items: center;
   }
 }
