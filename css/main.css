@@ -112,8 +112,8 @@ textarea {
 .sg-nav-item-2-fb-2 p {
   color: grey;
 }
-section:not(.element) {
-  margin-bottom: 5rem;
+section {
+  margin-top: 5rem;
 }
 .element {
   margin-bottom: 3rem;
@@ -126,6 +126,13 @@ section:not(.element) {
 .element:active {
   background-color: rgb(73, 64, 57);
 }
+
+.step {
+  background-color: rgb(49, 42, 38);
+}
+.step:hover{
+  background-color: rgb(49, 42, 38);
+}
 figcaption {
   margin-top: 1rem;
 }
@@ -134,12 +141,21 @@ ol li {
   margin-bottom: 0.5rem;
 }
 .contact-container {
-  border: 2px solid black;
+  margin: 2rem;
+  border: 2px solid rgb(73, 64, 57);
   border-radius: 1rem;
   padding: 1rem;
+  height: 500px;
 }
+
 .form-group {
   margin-bottom: 1rem;
+}
+
+.submit-group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .citations-box {
   max-width: 100%;
@@ -171,8 +187,8 @@ li {
   max-width: 40%; /* Ensure images don't exceed their natural size */
   height: auto; /* Keep the aspect ratio when scaling down */
 }
-.hp-img:hover{
-  opacity:40%;
+.hp-img:hover {
+  opacity: 40%;
   /* change this to add slides with text, the same background colour, about myself instead of opacity change */
 }
 /* .hp-image:last-child{
@@ -182,19 +198,30 @@ li {
   max-width: 100%;
 }
 
-.my-bio{
-  width:50%;
+.my-bio {
+  width: 50%;
 }
-.biography{
+.biography {
   line-height: 2rem;
-  width:80%;
+  width: 80%;
 }
-.prfc-txt{
-  margin-top:3rem;
-  margin-bottom:0;
-  font-size:0.8rem;
-  font-family:Voyager;
-  font-style:italic;
+.prfc-txt {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  font-family: Voyager;
+  font-style: italic;
+}
+
+.icon {
+  width: 25%;
+  text-align: center;
+  color: white;
+}
+
+.icon img {
+  max-height: 20px;
+  max-width: 100%;
 }
 
 @media (max-width: 500px) {
