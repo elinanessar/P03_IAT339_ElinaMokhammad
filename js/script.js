@@ -1,3 +1,4 @@
+console.log("Script is running!");
 var typed = new Typed(".auto-type", {
     strings: ["Hi there!", "Elina here :)", "Hope you enjoy!"],
     typeSpeed: 150,
