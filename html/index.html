@@ -14,7 +14,8 @@
 </head>
 
 
-<body>
+<body onload="window.scroll(0, 100)"> 
+    <!-- solution for this section was found at : https://stackoverflow.com/questions/11183873/starting-a-page-at-a-certain-scroll-point -->
     <header>
         <nav class=" navbar">
             <!-- menu : home, projects, about me, style guide-->
@@ -29,7 +30,7 @@
             <a href="/html/styleguide.html" class="nav-item block-four">style guide</a>
         </nav>
     </header>
-    <section id="landing-slide">
+    <section id="landing-slide" class="ls">
         <div class="slide-container-1">
 
 

@@ -118,8 +118,11 @@ textarea {
 .sg-nav-item-2-fb-2 p {
   color: grey;
 }
-section {
+section:not(.ls) {
   margin-top: 5rem;
+}
+.ls{
+  margin-top: 3rem;
 }
 .element {
   margin-bottom: 3rem;
