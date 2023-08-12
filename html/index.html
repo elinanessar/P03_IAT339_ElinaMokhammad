@@ -9,17 +9,15 @@
     <link href="../css/main.css" rel="stylesheet" />
     <link href="../css/flexbox.css" rel="stylesheet" />
     <link href="../css/fonts.css" rel="stylesheet" />
-    <script src="../js/script.js"></script>
-
 </head>
 
 
 <body onload="window.scroll(0, 100)">
 
-    <div id="overlay">
-        <div id="message">Hello!</div>
+    <div class="overlay">
+        <div class="message"><span class="auto-type"></span></div>
     </div>
-    
+
     <!-- solution for the body automatic scroll when loading the page was found at : https://stackoverflow.com/questions/11183873/starting-a-page-at-a-certain-scroll-point -->
     <header>
         <nav class=" navbar">
@@ -125,6 +123,8 @@
         </div>
     </section>
 
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
