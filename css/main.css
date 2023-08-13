@@ -268,22 +268,97 @@ li {
   height: 5px;
   background-color: rgb(83, 83, 83);
   margin-right: 5px;
-  margin-top:2rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-left:1rem;
+  margin-left: 1rem;
 }
 
-.last-rect{
-  margin-right:2rem;
+.last-rect {
+  margin-right: 2rem;
 }
 
-#second-slide h2{
-  margin-left:2rem;
+#second-slide h2 {
+  margin-left: 2rem;
 }
 
-.skill-level{
+#third-slide h2 {
+  margin-left: 2rem;
+}
+
+.skill-level {
   background-color: rgb(221, 218, 218);
 }
+
+.ls {
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: rgb(134, 111, 97); */
+  padding: 1rem;
+  border-bottom: 1px solid white;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.slide-container-3 {
+  text-align: center;
+}
+.hp-img-prj {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 2rem;
+}
+
+.hp-img-prj:hover {
+  opacity: 70%;
+  filter: drop-shadow(3px 3px 10px grey);
+}
+
+.projects-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.projects-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 1;
+}
+
+.nav-item:hover .projects-dropdown {
+  display: block;
+}
+
+.popup-option {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  margin: 5px 0;
+}
+/* .dropdown:hover .projects-dropdown {
+  display: block;
+}
+
+.popup-option {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  margin: 5px 0;
+} */
+
 @media (max-width: 500px) {
   .biography {
     width: 100%;
@@ -304,6 +379,9 @@ li {
     max-height: 200px;
   }
 }
+
+
+
 /* For viewport widths over 600px */
 @media screen and (min-width: 600px) {
   .my-image {
