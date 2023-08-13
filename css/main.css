@@ -189,20 +189,21 @@ li {
   width: 200px;
   height: 200px;
 }
+
 .color-box:hover {
   filter: opacity(60%);
 }
+
 .hp-img {
   max-width: 40%; /* Ensure images don't exceed their natural size */
   height: auto; /* Keep the aspect ratio when scaling down */
 }
+
 .hp-img:hover {
-  opacity: 40%;
+  /* opacity: 40%; */
   /* change this to add slides with text, the same background colour, about myself instead of opacity change */
 }
-/* .hp-image:last-child{
-  padding-right: 1rem;
-} */
+
 .slide-container-1 {
   max-width: 100%;
 }
@@ -257,7 +258,11 @@ li {
   font-family: "Voyager";
   color: white;
 }
-
+@media (max-width: 500px){
+  .biography{
+    width:100%;
+  }
+}
 @media (max-width: 500px) {
   /* body{
         line-height:1.4rem;
