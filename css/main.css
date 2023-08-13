@@ -67,9 +67,6 @@ a:active {
 .nav-item:focus,
 .nav-item:active {
   background-color: rgb(58, 50, 44);
-  /* instead of changing background colour, 
-    create a small animation like making the letters jump up 
-    a bit when the mouse is hovering over the object */
 }
 .button-nav {
   background-color: rgb(43, 38, 34);
@@ -315,14 +312,12 @@ li {
   filter: drop-shadow(3px 3px 10px grey);
 }
 
-.dropbtn {
-  padding: 1rem;
-  border: none;
+.dropdown {
+  padding: 0.5rem;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+.dropbtn {
+  border: none;
 }
 
 .dropdown-content {
@@ -330,7 +325,7 @@ li {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -342,13 +337,20 @@ li {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: rgb(58, 50, 44);
+  color: burlywood;
+}
 
 @media (max-width: 500px) {
   .biography {
@@ -370,8 +372,6 @@ li {
     max-height: 200px;
   }
 }
-
-
 
 /* For viewport widths over 600px */
 @media screen and (min-width: 600px) {
