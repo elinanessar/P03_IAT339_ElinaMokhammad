@@ -138,11 +138,6 @@
   flex-wrap: wrap;
 }
 
-.dropdown {
-  position: relative;
-}
-
-
 @media (max-width: 500px) { 
   .sg-nav-item-2 {
     width: 200px;
