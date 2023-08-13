@@ -37,7 +37,7 @@ h3 {
   filter: drop-shadow(3px 3px 10px grey);
   /* box-shadow:grey; */
 }
-.img-prj{
+.img-prj {
   width: 400px;
   height: auto;
   border: 3px solid white;
@@ -121,7 +121,7 @@ textarea {
 section:not(.ls) {
   margin-top: 5rem;
 }
-.ls{
+.ls {
   margin-top: 3rem;
 }
 .element {
@@ -139,7 +139,7 @@ section:not(.ls) {
 .step {
   background-color: rgb(49, 42, 38);
 }
-.step:hover{
+.step:hover {
   background-color: rgb(49, 42, 38);
 }
 figcaption {
@@ -233,21 +233,30 @@ li {
   max-width: 100%;
 }
 
-.overlay{
-
+#overlay {
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000; /* Place the overlay above everything else */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* .message{
-  width:100%;
-  height:100vh;
+#message {
+  width: 100%;
+  height: 100vh;
   background-color: rgb(49, 42, 38);
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   justify-content: center;
   font-size: 8rem;
-  font-family:"Voyager";
-  color:white;
-} */
+  font-family: "Voyager";
+  color: white;
+}
 
 @media (max-width: 500px) {
   /* body{
