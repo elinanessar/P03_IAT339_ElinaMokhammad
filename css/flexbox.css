@@ -40,7 +40,7 @@
 }
 .form-group {
   display: flex;
-  flex: wrap;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 .color-box-fb {
@@ -78,7 +78,7 @@
 .my-bio{
   display:flex;
   flex-direction:column;
-  flex:wrap;
+  flex-wrap: wrap;
 }
 
 .connect-container {

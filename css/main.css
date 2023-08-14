@@ -385,7 +385,7 @@ li {
   }
   .img-prj {
     max-width:200px;
-    max-height:auto;
+    height:auto;
   }
   .biography {
     width: 100%;
