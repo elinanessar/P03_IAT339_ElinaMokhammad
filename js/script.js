@@ -15,7 +15,7 @@ typewriter = () => {
       if (textPosition++ == currentMessage.length) {
         if (messageIndex === 0) {
           isDeleting = true;
-          setTimeout(typewriter, speed * 10); // Pause after typing
+          setTimeout(typewriter, speed * 7); // Pause after typing
         } else {
           setTimeout(typewriter, speed); // Pause before moving to the next message
         }
@@ -30,7 +30,7 @@ typewriter = () => {
         isDeleting = false;
         messageIndex++;
         if (messageIndex < messageArray.length) {
-          setTimeout(typewriter, speed * 10); // Pause before typing the next message
+          setTimeout(typewriter, speed * 7); // Pause before typing the next message
         }
       } else {
         setTimeout(typewriter, speed *2);

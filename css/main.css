@@ -336,31 +336,41 @@ li {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: rgb(58, 50, 44);
   color: burlywood;
 }
 
-@media (max-width: 500px) {
-  .biography {
-    width: 100%;
-  }
+#back-to-top {
+  display: none; /* Hide the button by default */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+#back-to-top:hover {
+  background-color: #555;
+}
+
+#landing-slide h2{
+  margin-left:1rem;
+}
+
 @media (max-width: 500px) {
-  /* body{
-        line-height:1.4rem;
-    } */
   h1 {
     font-size: 2.5rem;
   }
@@ -370,6 +380,13 @@ li {
   .img-link {
     max-width: 200px;
     max-height: 200px;
+  }
+  .img-prj {
+    max-width:200px;
+    max-height:auto;
+  }
+  .biography {
+    width: 100%;
   }
 }
 
